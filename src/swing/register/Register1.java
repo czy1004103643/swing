@@ -95,7 +95,7 @@ public class Register1 extends JFrame {
 		panel.add(btnNewButton);
 
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-		setBounds(470, 200, 400, 270);
+		setBounds(470, 200, 487, 324);
 		setResizable(true);
 		setVisible(true);
 	}
