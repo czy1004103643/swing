@@ -1,4 +1,4 @@
-package swing.main;
+package swing.function;
 
 import java.awt.EventQueue;
 import java.awt.event.MouseAdapter;
@@ -13,13 +13,14 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
-public class Main8 extends JFrame {
+public class Function7 extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-
+	private JTextField wordnametext;
+	private static Integer current = 0;
+	private JLabel qualitytext;
+	private JLabel chinesetext;
+	private JLabel label_4;
 
 	/**
 	 * Launch the application.
@@ -28,7 +29,7 @@ public class Main8 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main8 frame = new Main8();
+					Function7 frame = new Function7();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,47 +41,78 @@ public class Main8 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Main8() {
-		super("添加单词");
+	public Function7() {
+		super("背诵单词");
 		this.setIconImage(new ImageIcon("image/2.jpg").getImage());
+		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 266, 224);
+		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel label = new JLabel("单词：");
-		label.setBounds(29, 29, 54, 15);
+		
+		
+	
+		
+		JButton button = new JButton("上一个");
+		
+		button.setBounds(21, 207, 93, 23);
+		contentPane.add(button);
+		
+		JButton button_1 = new JButton("下一个");
+		
+		button_1.setBounds(277, 207, 93, 23);
+		contentPane.add(button_1);
+		
+		JButton button_2 = new JButton("掌握");
+		
+		button_2.setBounds(316, 10, 93, 23);
+		contentPane.add(button_2);
+		
+		JLabel label = new JLabel("英文：");
+		label.setBounds(84, 48, 54, 15);
 		contentPane.add(label);
 		
-		textField = new JTextField();
-		textField.setBounds(69, 26, 101, 21);
-		contentPane.add(textField);
-		textField.setColumns(10);
+		wordnametext = new JTextField();
+		wordnametext.setBounds(148, 45, 122, 21);
+		contentPane.add(wordnametext);
+		wordnametext.setColumns(10);
 		
 		JLabel label_1 = new JLabel("词性：");
-		label_1.setBounds(29, 57, 54, 15);
+		label_1.setBounds(84, 92, 54, 15);
 		contentPane.add(label_1);
 		
-		textField_1 = new JTextField();
-		textField_1.setBounds(69, 57, 101, 21);
-		contentPane.add(textField_1);
-		textField_1.setColumns(10);
-		
 		JLabel label_2 = new JLabel("中文：");
-		label_2.setBounds(29, 88, 54, 15);
+		label_2.setBounds(84, 143, 54, 15);
 		contentPane.add(label_2);
 		
-		textField_2 = new JTextField();
-		textField_2.setBounds(69, 88, 101, 21);
-		contentPane.add(textField_2);
-		textField_2.setColumns(10);
+		qualitytext = new JLabel("n");
+		qualitytext.setBounds(146, 92, 97, 15);
+		contentPane.add(qualitytext);
 		
+		chinesetext = new JLabel("中文");
+		chinesetext.setBounds(146, 143, 97, 15);
+		contentPane.add(chinesetext);
 		
-		JButton button = new JButton("添加");
-		button.setBounds(65, 136, 93, 23);
-		contentPane.add(button);
+		JLabel label_3 = new JLabel("当前单词：");
+		label_3.setBounds(95, 240, 66, 15);
+		contentPane.add(label_3);
+		
+		label_4 = new JLabel("0/0");
+		label_4.setBounds(173, 240, 54, 15);
+		contentPane.add(label_4);
+		
+		label_4.setText("label_4");
+		
+		JButton button_3 = new JButton("检验");
+		
+		button_3.setBounds(150, 207, 93, 23);
+		contentPane.add(button_3);
+		
+		qualitytext.setText("getQuality");
+		chinesetext.setText("getChinese");
 		
 		
 		
@@ -96,6 +128,8 @@ public class Main8 extends JFrame {
 		// 把内容窗格转化为JPanel，否则不能用方法setOpaque()来使内容窗格透明
 		JPanel imagePanel = (JPanel) this.getContentPane();
 		imagePanel.setOpaque(false);
+		
+		
 		// 把背景图片添加到分层窗格的最底层作为背景
 		this.getLayeredPane().add(label2, new Integer(Integer.MIN_VALUE));
 		//设置可见

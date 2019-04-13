@@ -1,4 +1,4 @@
-package swing.main;
+package swing.function;
 
 import java.awt.EventQueue;
 import java.util.List;
@@ -17,7 +17,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JEditorPane;
 
-public class Main11 extends JFrame {
+public class Function8 extends JFrame {
 
 	private JPanel contentPane;
 	private DefaultTableModel model = null;
@@ -32,7 +32,7 @@ public class Main11 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main11 frame = new Main11();
+					Function8 frame = new Function8();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -44,9 +44,8 @@ public class Main11 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Main11() {
-		super("用户登录日志");
-		setTitle("\u8BA2\u5355\u7BA1\u7406");
+	public Function8() {
+		setTitle("搜索推广");
 		this.setIconImage(new ImageIcon("image/2.jpg").getImage());
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -68,7 +67,7 @@ public class Main11 extends JFrame {
         		{null, null, null, null},
         	},
         	new String[] {
-        			"订单编号","订购用户","订单时间","订单状态"
+        			"推广编号","推广开始时间","推广结束时间","推广状态"
         	}
         ));
   
@@ -77,12 +76,12 @@ public class Main11 extends JFrame {
         
         //getContentPane().add(upBtn);
         JScrollPane scrollPane = new JScrollPane(table);
-        scrollPane.setBounds(0, 34, 392, 158);
+        scrollPane.setBounds(0, 32, 392, 160);
         getContentPane().add(scrollPane);
         
       
 
-        setSize(408, 303);
+        setSize(402, 300);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
@@ -104,7 +103,7 @@ public class Main11 extends JFrame {
 			getContentPane().add(panel);
 			panel.setLayout(null);
 			
-			JButton button_1 = new JButton("\u8BA2\u5355\u786E\u8BA4");
+			JButton button_1 = new JButton("\u63A8\u5E7F\u4FEE\u6539");
 			button_1.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent arg0) {
 				}
@@ -112,11 +111,11 @@ public class Main11 extends JFrame {
 			button_1.setBounds(10, 27, 93, 23);
 			panel.add(button_1);
 			
-			JButton button_2 = new JButton("\u8BA2\u5355\u9000\u8BA2");
+			JButton button_2 = new JButton("\u63A8\u5E7F\u5220\u9664");
 			button_2.setBounds(134, 27, 93, 23);
 			panel.add(button_2);
 			
-			JButton button_3 = new JButton("\u8BA2\u5355\u5B8C\u6210");
+			JButton button_3 = new JButton("\u63A8\u5E7F\u7ED3\u675F");
 			button_3.setBounds(263, 27, 93, 23);
 			panel.add(button_3);
 			
@@ -128,7 +127,7 @@ public class Main11 extends JFrame {
 			JTextArea textArea = new JTextArea();
 			textArea.setBounds(85, 5, 82, 24);
 			panel_1.add(textArea);
-			textArea.setText("\u8F93\u5165\u8BA2\u5355\u7F16\u53F7");
+			textArea.setText("\u8F93\u5165\u63A8\u5E7F\u7F16\u53F7");
 			
 			JButton button = new JButton("\u67E5\u8BE2");
 			button.setBounds(195, 5, 93, 23);

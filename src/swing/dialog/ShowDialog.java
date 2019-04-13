@@ -6,61 +6,61 @@ public class ShowDialog {
 	public static void main(String[] args) {
 		
 ///////////////////////////////////////////////////////////////////
-		// ÏûÏ¢¶Ô»°¿ò£¨ÐÅÏ¢ÏûÏ¢£©
+		// ï¿½ï¿½Ï¢ï¿½Ô»ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½Ï¢ï¿½ï¿½
 //        JOptionPane.showMessageDialog(
 //        		null,
 //                "Hello Information Message",
-//                "ÏûÏ¢±êÌâ",
+//                "ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½",
 //                JOptionPane.INFORMATION_MESSAGE
 //        );
         
 ///////////////////////////////////////////////////////////////////
 		
-        // ÏûÏ¢¶Ô»°¿ò£¨¾¯¸æÏûÏ¢£©
+        // ï¿½ï¿½Ï¢ï¿½Ô»ï¿½ï¿½ò£¨¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½
 //        JOptionPane.showMessageDialog(
 //        		null,
 //                "Hello Warning Message",
-//                "ÏûÏ¢±êÌâ",
+//                "ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½",
 //                JOptionPane.WARNING_MESSAGE
 //        );
 
 ///////////////////////////////////////////////////////////////////
 		
-		//È·ÈÏ¶Ô»°¿ò,ÓÐ¡°ÊÇ¡±¡°·ñ¡±¡°È¡Ïû¡±
+		//È·ï¿½Ï¶Ô»ï¿½ï¿½ï¿½,ï¿½Ð¡ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½ñ¡±¡ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 //		int result = JOptionPane.showConfirmDialog(
 //                null,
-//                "È·ÈÏÉ¾³ý£¿",
-//                "ÌáÊ¾",
+//                "È·ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½",
+//                "ï¿½ï¿½Ê¾",
 //                JOptionPane.YES_NO_CANCEL_OPTION
 //        );
 		
 		
 ///////////////////////////////////////////////////////////////////
-		//È·ÈÏ¶Ô»°¿ò,ÓÐ¡°ÊÇ¡±¡°·ñ¡±
+		//È·ï¿½Ï¶Ô»ï¿½ï¿½ï¿½,ï¿½Ð¡ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½ï¿½
 		int n=JOptionPane.showConfirmDialog(
 				null, 
-				"È·¶¨ÐèÒªÍË³ö²©ÈðÊÀ¼ÍÎ¢ÐÅÉÌ³ÇµÄÓ¦ÓÃ·þÎñÏµÍ³Âð£¿",
-				"ÏµÍ³ÌáÊ¾",
+				"ç¡®å®šçŽ°åœ¨é€€å‡ºç››ä¸–é½å¤©æœåŠ¡æŒ‡å¯¼å¹³å°å—ï¼Ÿ",
+				"ç³»ç»Ÿæç¤º",
 				JOptionPane.OK_CANCEL_OPTION);
 		
 ///////////////////////////////////////////////////////////////////
 		
-		 // ÊäÈë¶Ô»°¿ò£¨ÎÄ±¾¿òÊäÈë£©
+		 // ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£©
 //        String inputContent = JOptionPane.showInputDialog(
 //                null,
-//                "ÊäÈëÄãµÄÃû×Ö:",
-//                "Ä¬ÈÏÄÚÈÝ"
+//                "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:",
+//                "Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
 //        );
 		
 ///////////////////////////////////////////////////////////////////
 		
-//		  Object[] selectionValues = new Object[]{"Ïã½¶", "Ñ©Àæ", "Æ»¹û"};
+//		  Object[] selectionValues = new Object[]{"ï¿½ã½¶", "Ñ©ï¿½ï¿½", "Æ»ï¿½ï¿½"};
 //
-//          // ÊäÈë¶Ô»°¿ò£¨ÏÂÀ­¿òÑ¡Ôñ£©
+//          // ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
 //          Object inputContent = JOptionPane.showInputDialog(
 //                  null,
-//                  "Ñ¡ÔñÒ»Ïî: ",
-//                  "±êÌâ",
+//                  "Ñ¡ï¿½ï¿½Ò»ï¿½ï¿½: ",
+//                  "ï¿½ï¿½ï¿½ï¿½",
 //                  JOptionPane.PLAIN_MESSAGE,
 //                  null,
 //                  selectionValues,
@@ -68,19 +68,19 @@ public class ShowDialog {
 //          );
           
 ///////////////////////////////////////////////////////////////////
-          //Ñ¡Ïî¶Ô»°¿ò
+          //Ñ¡ï¿½ï¿½Ô»ï¿½ï¿½ï¿½
           
-//          Object[] options = new Object[]{"Ïã½¶", "Ñ©Àæ", "Æ»¹û"};// Ñ¡Ïî°´Å¥
+//          Object[] options = new Object[]{"ï¿½ã½¶", "Ñ©ï¿½ï¿½", "Æ»ï¿½ï¿½"};// Ñ¡ï¿½î°´Å¥
 //
-//          // ÏÔÊ¾Ñ¡Ïî¶Ô»°¿ò, ·µ»ØÑ¡ÔñµÄÑ¡ÏîË÷Òý, µã»÷¹Ø±Õ°´Å¥·µ»Ø-1
+//          // ï¿½ï¿½Ê¾Ñ¡ï¿½ï¿½Ô»ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½Ø±Õ°ï¿½Å¥ï¿½ï¿½ï¿½ï¿½-1
 //          int optionSelected = JOptionPane.showOptionDialog(
 //                  null,
-//                  "Çëµã»÷Ò»¸ö°´Å¥Ñ¡ÔñÒ»Ïî",
-//                  "¶Ô»°¿ò±êÌâ",
+//                  "ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Å¥Ñ¡ï¿½ï¿½Ò»ï¿½ï¿½",
+//                  "ï¿½Ô»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 //                  JOptionPane.YES_NO_CANCEL_OPTION,
 //                  JOptionPane.ERROR_MESSAGE,
 //                  null,
-//                  options,    // Èç¹û´«null, Ôò°´Å¥Îª optionType ÀàÐÍËù±íÊ¾µÄ°´Å¥£¨Ò²¾ÍÊÇÈ·ÈÏ¶Ô»°¿ò£©
+//                  options,    // ï¿½ï¿½ï¿½ï¿½ï¿½null, ï¿½ï¿½Å¥Îª optionType ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ä°ï¿½Å¥ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½È·ï¿½Ï¶Ô»ï¿½ï¿½ï¿½
 //                  options[0]
 //          );
           

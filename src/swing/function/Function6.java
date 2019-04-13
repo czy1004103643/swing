@@ -1,4 +1,4 @@
-package swing.main;
+package swing.function;
 
 import java.awt.EventQueue;
 import java.awt.event.MouseAdapter;
@@ -14,8 +14,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
-public class Main7 extends JFrame {
+public class Function6 extends JFrame {
 
 	private JPanel contentPane;
 	// 默认表格模型
@@ -31,7 +33,7 @@ public class Main7 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main7 frame = new Main7();
+					Function6 frame = new Function6();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -43,7 +45,7 @@ public class Main7 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Main7() {
+	public Function6() {
 		//设置标题
 				super("已学会单词");
 				this.setIconImage(new ImageIcon("image/2.jpg").getImage());
@@ -84,6 +86,10 @@ public class Main7 extends JFrame {
 		        getContentPane().add(scrollPane);
 		        
 		        JButton button = new JButton("删除数据");
+		        button.addActionListener(new ActionListener() {
+		        	public void actionPerformed(ActionEvent arg0) {
+		        	}
+		        });
 		        button.setBounds(238, 0, 146, 23);
 		        getContentPane().add(button);
 

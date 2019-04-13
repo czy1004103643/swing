@@ -23,15 +23,15 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;  
 
 public class LoadingPanel extends JComponent implements MouseListener {  
-	//±³¾°É«
+	//ï¿½ï¿½ï¿½ï¿½É«
     Color bgColor = Color.LIGHT_GRAY;
-    //½ø¶ÈÌõµ×É«
-    Color progressCommonBgColor = Color.black;
-	//½ø¶ÈÌõ½ø¶ÈÑ¡ÖĞÑÕÉ«
-    Color progressSelectBgColor = Color.green;
-    //½ø¶ÈÌõÌáÊ¾ÎÄ×Ö
-    public static String progressTextString = "²©ÈğÊÀ¼ÍÎ¢ĞÅÉÌ³ÇµÄÓ¦ÓÃ·şÎñÏµÍ³"
-    		+ "ÕıÔÚ°²È«ÍË³öÖĞ£¬ÇëÉÔºó£¡";
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+    Color progressCommonBgColor = Color.white;
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½É«
+    Color progressSelectBgColor = Color.black;
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
+    public static String progressTextString = "ç››ä¸–é½å¤©æœåŠ¡æŒ‡å¯¼å¹³å°"
+    		+ "æ­£åœ¨å®‰å…¨é€€å‡ºä¸­ï¼Œè¯·ç¨åï¼";
     
     private static final long serialVersionUID = 1L;  
     protected Area[] ticker = null;  
@@ -284,11 +284,11 @@ public class LoadingPanel extends JComponent implements MouseListener {
                 glasspane.setBounds(100, 100, (dimension.width) / 2, (dimension.height) / 2);
         frame.setGlassPane(glasspane);
         glasspane.setText(progressTextString);
-        glasspane.start();//¿ªÊ¼¶¯»­¼ÓÔØĞ§¹û
+        glasspane.start();//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½
         frame.setSize(dimension.width/2, dimension.height/2);
         frame.setVisible(true);
 
-        // Later, to disable,ÔÚºÏÊÊµÄµØ·½¹Ø±Õ¶¯»­Ğ§¹û
+        // Later, to disable,ï¿½Úºï¿½ï¿½ÊµÄµØ·ï¿½ï¿½Ø±Õ¶ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½
 //      glasspane.stop();
     }
 }
