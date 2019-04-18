@@ -21,28 +21,28 @@ import javax.swing.border.EmptyBorder;
 public class Register2 extends JFrame {
 
 	private JPanel contentPane;
-	  private JFrame jf = new JFrame("×¢²á");
-	    private Container con = jf.getContentPane();// »ñµÃÃæ°å
+	  private JFrame jf = new JFrame("×¢ï¿½ï¿½");
+	    private Container con = jf.getContentPane();// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	    private Toolkit toolkit = Toolkit.getDefaultToolkit();
-	private Dimension sc = toolkit.getScreenSize();// »ñµÃÆÁÄ»³ß´ç
-    private JLabel id = new JLabel("ÕË    ºÅ");
-    private JLabel name = new JLabel("ÓÃ »§ Ãû");
-    private JLabel pass = new JLabel("ÃÜ    Âë");
-    private JLabel pass2 = new JLabel("È·ÈÏÃÜÂë");
+	private Dimension sc = toolkit.getScreenSize();// ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ß´ï¿½
+    private JLabel id = new JLabel("ç”¨æˆ·å");
+    private JLabel name = new JLabel("å¯†ç ");
+    private JLabel pass = new JLabel("ç¡®è®¤å¯†ç ");
+    private JLabel pass2 = new JLabel("ç”µå­é‚®ç®±");
     private JTextField textId = new JTextField();
     private JTextField textName = new JTextField();
-    private JLabel title = new JLabel("ÓÃ»§×¢²á");
-    private JPasswordField textPs = new JPasswordField(); // ÃÜÂë¿ò
+    private JLabel title = new JLabel("ç”¨æˆ·æ³¨å†Œ");
+    private JPasswordField textPs = new JPasswordField(); // ï¿½ï¿½ï¿½ï¿½ï¿½
     private JPasswordField textPs2 = new JPasswordField();
     
-    // °´Å¥
-    private JButton registerBtn = new JButton("È·¶¨");
-    private JButton backLoginBtn = new JButton("·µ»Ø");
+    // ï¿½ï¿½Å¥
+    private JButton registerBtn = new JButton("æ³¨å†Œ");
+    private JButton backLoginBtn = new JButton("é‡ç½®");
     
-    // ×ÖÌå£¬ÑùÊ½£¨´ÖÌå£¬Ğ±Ìå£©£¬´óĞ¡
-    private Font font = new Font("¿¬Ìå", 1, 28);
-    private Font font1 = new Font("¿¬Ìå", 0, 20);
-    private Font font2 = new Font("ËÎÌå", 0, 18);
+    // ï¿½ï¿½ï¿½å£¬ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½å£¬Ğ±ï¿½å£©ï¿½ï¿½ï¿½ï¿½Ğ¡
+    private Font font = new Font("ï¿½ï¿½ï¿½ï¿½", 1, 28);
+    private Font font1 = new Font("ï¿½ï¿½ï¿½ï¿½", 0, 20);
+    private Font font2 = new Font("ï¿½ï¿½ï¿½ï¿½", 0, 18);
 
 
 	/**
@@ -71,10 +71,11 @@ public class Register2 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		jf.setTitle("æ³¨å†Œ");
 		
 		jf.setSize(900, 500);
         jf.setLocation((sc.width - 900) / 2, (sc.height - 500) / 2);
-        jf.setResizable(false);// ´°¿Ú´óĞ¡²»¿É±ä
+        jf.setResizable(false);// ï¿½ï¿½ï¿½Ú´ï¿½Ğ¡ï¿½ï¿½ï¿½É±ï¿½
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         con.setVisible(true);
@@ -91,7 +92,7 @@ public class Register2 extends JFrame {
         name.setFont(font1);
         name.setForeground(Color.RED);
 
-        pass.setBounds(325, 240, 95, 30);// ÃÜÂëµÄÎ»ÖÃ´óĞ¡
+        pass.setBounds(325, 240, 95, 30);// ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã´ï¿½Ğ¡
         pass.setForeground(Color.red);
         pass.setFont(font1);
 
@@ -101,16 +102,16 @@ public class Register2 extends JFrame {
 
         textId.setBounds(430, 143, 170, 25);
         textId.setFont(font1);
-        textId.setBorder(null);// ±ß¿ò
+        textId.setBorder(null);// ï¿½ß¿ï¿½
 
         textName.setBounds(430, 193, 170, 25);
         textName.setFont(font1);
-        textName.setBorder(null);// ±ß¿ò
+        textName.setBorder(null);// ï¿½ß¿ï¿½
 
         textPs.setBounds(430, 243, 170, 25);
         textPs.setFont(font1);
         textPs.setBorder(null);
-        // ¿ÉÒÔ½«ÃÜÂëÏÔÊ¾Îª* £»Ä¬ÈÏÎª¡¤ µ«Ä¬ÈÏÓÖ¶ÔÆäÉèÖÃÁË×ÖÌåÊ±»áÂÒÂë
+        // ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾Îª* ï¿½ï¿½Ä¬ï¿½ï¿½Îªï¿½ï¿½ ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         textPs.setEchoChar('*');
         
         textPs2.setBounds(430, 293, 170, 25);
@@ -123,7 +124,7 @@ public class Register2 extends JFrame {
 
         backLoginBtn.setBounds(490, 340, 90, 25);
         backLoginBtn.setFont(font2);
-        ImageIcon bgim = new ImageIcon("resources/background.jpg");// ±³¾°Í¼°¸
+        ImageIcon bgim = new ImageIcon("resources/background.jpg");// ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½
         JLabel bg = new JLabel(bgim);
         Container laycon = jf.getLayeredPane();
         bg.setSize(jf.getSize().width, jf.getSize().height);

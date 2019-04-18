@@ -39,7 +39,7 @@ public class ShowDialog {
 		//ȷ�϶Ի���,�С��ǡ�����
 		int n=JOptionPane.showConfirmDialog(
 				null, 
-				"确定现在退出盛世齐天服务指导平台吗？",
+				"确定现在退出政务服务咨询投诉管理系统吗？",
 				"系统提示",
 				JOptionPane.OK_CANCEL_OPTION);
 		

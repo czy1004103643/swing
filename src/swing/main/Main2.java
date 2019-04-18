@@ -45,15 +45,15 @@ public class Main2 extends JFrame {
 		contentPane.setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBackground(Color.ORANGE);
+		panel.setBackground(Color.PINK);
 		panel.setForeground(Color.ORANGE);
 		panel.setBounds(97, 93, 213, 97);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel_1 = new JLabel("\u641C\u7D22\u63A8\u5E7F");
-		lblNewLabel_1.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		lblNewLabel_1.setBounds(115, 21, 109, 53);
+		JLabel lblNewLabel_1 = new JLabel("å’¨è¯¢ç®¡ç†");
+		lblNewLabel_1.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		lblNewLabel_1.setBounds(55, 21, 109, 53);
 		panel.add(lblNewLabel_1);
 		
 		JLabel label_1 = new JLabel("");
@@ -61,22 +61,22 @@ public class Main2 extends JFrame {
 		label_1.setBounds(-13, 0, 117, 94);
 		panel.add(label_1);
 		
-		JLabel label = new JLabel("\u7CFB\u7EDF\u529F\u80FD\u754C\u9762");
-		label.setFont(new Font("ËÎÌå", Font.PLAIN, 24));
+		JLabel label = new JLabel("æ”¿åŠ¡æœåŠ¡å’¨è¯¢æŠ•è¯‰ç®¡ç†ç³»ç»Ÿ");
+		label.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 24));
 		label.setHorizontalAlignment(SwingConstants.CENTER);
-		label.setBounds(218, 10, 310, 73);
+		label.setBounds(174, 10, 443, 73);
 		contentPane.add(label);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setLayout(null);
 		panel_1.setForeground(Color.ORANGE);
-		panel_1.setBackground(Color.ORANGE);
+		panel_1.setBackground(Color.PINK);
 		panel_1.setBounds(432, 93, 213, 97);
 		contentPane.add(panel_1);
 		
-		JLabel label_2 = new JLabel("\u54C1\u724C\u63A8\u5E7F");
-		label_2.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		label_2.setBounds(115, 21, 109, 53);
+		JLabel label_2 = new JLabel("æœåŠ¡ç®¡ç†");
+		label_2.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		label_2.setBounds(61, 20, 109, 53);
 		panel_1.add(label_2);
 		
 		JLabel label_3 = new JLabel("");
@@ -87,13 +87,13 @@ public class Main2 extends JFrame {
 		JPanel panel_2 = new JPanel();
 		panel_2.setLayout(null);
 		panel_2.setForeground(Color.ORANGE);
-		panel_2.setBackground(Color.ORANGE);
+		panel_2.setBackground(Color.PINK);
 		panel_2.setBounds(97, 239, 213, 97);
 		contentPane.add(panel_2);
 		
-		JLabel label_4 = new JLabel("\u5B9A\u5236\u63A8\u5E7F");
-		label_4.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		label_4.setBounds(115, 21, 109, 53);
+		JLabel label_4 = new JLabel("æŠ•è¯‰ç®¡ç†");
+		label_4.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		label_4.setBounds(54, 23, 109, 53);
 		panel_2.add(label_4);
 		
 		JLabel label_5 = new JLabel("");
@@ -106,11 +106,11 @@ public class Main2 extends JFrame {
 		contentPane.add(panel_3);
 		panel_3.setLayout(null);
 		panel_3.setForeground(Color.ORANGE);
-		panel_3.setBackground(Color.ORANGE);
+		panel_3.setBackground(Color.PINK);
 		
-		JLabel label_6 = new JLabel("\u63A8\u5E7F\u7EF4\u62A4");
-		label_6.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		label_6.setBounds(115, 21, 109, 53);
+		JLabel label_6 = new JLabel("å®¢æˆ·ç®¡ç†");
+		label_6.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		label_6.setBounds(64, 22, 109, 53);
 		panel_3.add(label_6);
 		
 		JLabel label_7 = new JLabel("");
@@ -121,13 +121,13 @@ public class Main2 extends JFrame {
 		JPanel panel_4 = new JPanel();
 		panel_4.setLayout(null);
 		panel_4.setForeground(Color.ORANGE);
-		panel_4.setBackground(Color.ORANGE);
+		panel_4.setBackground(Color.PINK);
 		panel_4.setBounds(97, 382, 213, 97);
 		contentPane.add(panel_4);
 		
-		JLabel label_8 = new JLabel("\u63A8\u5E7F\u5E73\u53F0");
-		label_8.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		label_8.setBounds(115, 21, 109, 53);
+		JLabel label_8 = new JLabel("æŠ•è¯‰æµç¨‹");
+		label_8.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		label_8.setBounds(50, 20, 109, 53);
 		panel_4.add(label_8);
 		
 		JLabel label_9 = new JLabel("");
@@ -138,13 +138,13 @@ public class Main2 extends JFrame {
 		JPanel panel_5 = new JPanel();
 		panel_5.setLayout(null);
 		panel_5.setForeground(Color.ORANGE);
-		panel_5.setBackground(Color.ORANGE);
+		panel_5.setBackground(Color.PINK);
 		panel_5.setBounds(432, 382, 213, 97);
 		contentPane.add(panel_5);
 		
-		JLabel label_10 = new JLabel("\u7CFB\u7EDF\u8BBE\u7F6E");
-		label_10.setFont(new Font("ËÎÌå", Font.PLAIN, 20));
-		label_10.setBounds(115, 21, 109, 53);
+		JLabel label_10 = new JLabel("å·¥ä½œå®æ–½");
+		label_10.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 20));
+		label_10.setBounds(67, 23, 109, 53);
 		panel_5.add(label_10);
 		
 		JLabel label_11 = new JLabel("");
